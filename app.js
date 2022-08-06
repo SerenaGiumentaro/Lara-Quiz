@@ -68,9 +68,9 @@ function changeQuestion(currentQuestion){
 function showResult(){
     if(points === 50){
         alert(`Complimenti hai ottenuto ${points} punti, conosci Lara meglio di chiunque altro, forse meglio di lei stessa`)
-    }else if (points < 50 && points > 30){
+    }else if (points < 50 && points >= 30){
         alert(`Bene, hai totalizzato ${points} punti, conosci Lara abbastanza bene`)
-    }else if (points < 30 && points > 20){
+    }else if (points < 30 && points >= 20){
         alert(`Hai totalizzato ${points} punti, conosci un pò Lara, forse dovreste passare un pò più di tempo insieme`)
     }else if(points < 20){
         alert(`Che peccato!!! Hai totalizzato solo ${points} punti, non conosci per nulla Lara. Non sai cosa ti perdi`)
